@@ -8,9 +8,8 @@ import sys
 # constants
 hbar = 1.0545718e-34          # J·s
 c    = 2.99792458e10          # cm/s
-amu  = 1.660539e-27  
-amu_to_kg = 1.66053906660e-27       # kg per amu
-me_kg     = 9.1093837015e-31        # kg per electron mass
+amu  = 1.660539e-27           #kg per amu
+me_kg     = 9.1093837015e-31   # kg per electron mass
 angstrom_to_bohr = 1.0/0.529177210903e-10  # Å → a₀ (in m/m)
 
 #Parsing code to extract data after the keyword "Begining the Parallel mode computations" from ezFCF output
